@@ -101,7 +101,7 @@ h2 {
     .nav-menu {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: 150%;
         background-color: white;
         position: absolute;
         top: 60px;
