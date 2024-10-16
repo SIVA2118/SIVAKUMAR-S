@@ -30,7 +30,7 @@ This website showcases my work, skills, and experience in the following areas:
 ## 📸 Screenshots
 
 ### Home Page
-![landing_page](https://github.com/user-attachments/assets/9f3d5998-8fa2-4604-a058-8781542cbf33)
+![navbar](https://github.com/user-attachments/assets/f5028fc4-4eb5-481e-b976-e81865be39f8)
 
 ### Portfolio Section
 ![Portfolio Section](./screenshots/portfolio.png)
