@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        /* Container for Resume */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgb(201, 198, 198);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            flex: 1; /* Sidebar takes 1 part of the flex container */
+            background: rgb(59, 58, 58); /* Sidebar color */
+            color: white;
+            padding: 20px;
+            border-radius: 10px 0 0 10px;
+            margin-right: 20px;
+        }
+
+        .sidebar h2 {
+            color: white;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .sidebar p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        .sidebar a {
+            color: #f2f2f2;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 2; /* Main content takes 2 parts of the flex container */
+            padding: 20px;
+            background:  rgb(201, 198, 198);
+            border-radius: 0 10px 10px 0;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.1em;
+            color: #eef1f3;
+        }
+
+        .header p {
+            font-size: 1.0em;
+            color: #f7f4f4;
+        }
+
+        /* Section Titles */
+        h2 {
+            font-size: 1.8em;
+            color: #007bff;
+            border-bottom: 2px solid #e7e7e7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Skills and Other Lists */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header p {
+                font-size: 1em;
+            }
+
+            .sidebar h2 {
+                font-size: 1.3em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .container {
+                flex-direction: column; /* Stack the sidebar and main content vertically on small screens */
+            }
+
+            .sidebar {
+                margin-right: 0;
+                border-radius: 10px; /* Full round corners on mobile */
+                margin-bottom: 20px; /* Add spacing between sections */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <div class="header">
+                <h1>SIVAKUMAR S.</h1>
+                <p>Web Developer</p>
+            </div><br>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:sivakumarbco2021@gmail.com">sivakumarbco2021@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919942129724">9942129724</a></p>
+            <p>Website: <a href="https://www.reallygreatsite.com">www.reallygreatsite.com</a></p>
+            <p>Address: Pachchayappa Nagar 1st Street, Raakyapaalayam, Tirupur.</p><br>
+            
+            <h2>Education</h2>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <h4>Schooling</h4>
+            <p>Vijayapuram Higher Secondary School, Tirupur - HSC completed with 80% (2020-2021)</p>
+            <h4>UG</h4>
+            <p>Rathinavel Subramanian College of Arts and Science. Pursuing BCA with 81% (2021-2024)</p>
+        </div><br>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <section>
+                <h2>Objective</h2>
+                <p>
+                    Highly motivated and skilled Java developer seeking an entry-level position to leverage 
+                    my strong foundation in Java programming and problem-solving abilities to contribute 
+                    to innovative software solutions. Eager to work in a collaborative team environment, 
+                    learn from experienced professionals, and continuously enhance my expertise in Java development.
+                </p>
+            </section>
+
+            <section>
+                <h2>Computer Skills</h2>
+                <ul>
+                    <li>Java, C++, Basic Python</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>SQL, MySQL</li>
+                    <li>Windows Operating System</li>
+                    <li>Object-Oriented Programming (OOP)</li>
+                    <li>Software Development Life Cycle (SDLC)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                <h3>E-Commerce Platform</h3>
+                <p>Developed a fully functional e-commerce website using HTML, CSS, and JavaScript, enabling users to browse products, add them to a cart, and complete purchases securely.</p>
+                <h3>Pac-Man Game</h3>
+                <p>Created a browser-based Pac-Man game using JavaScript, allowing users to navigate mazes and collect points while avoiding ghosts.</p>
+            </section>
+
+            <section>
+                <h2>Development Tools</h2>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Spring Tool Suite</li>
+                    <li>Agile Software Development</li>
+                    <li>GitHub</li>
+                    <li>BeeCrowd</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Certificates</h2>
+                <ul>
+                    <li>Java Data Structures in Great Learning</li>
+                    <li>Python (Basic Programming) in Great Learning</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Tamil</li>
+                    <li>English</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Friendly</li>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Decision Making</li>
+                    <li>Interests: Cricket, Video Editing</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2024 Sivakumar S. All rights reserved.
+    </div>
+</body>
+</html>
