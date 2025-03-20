@@ -67,11 +67,11 @@
             </div>
             <!-- Social Media Icons Section -->
         <div class="social-media">
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/mr_attitude_sk_/?next=%2F" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/SIVA2118" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/sivakumar-s-603572280/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/channel/UCS_qq1uFoGLQiNkM7iPRsCA/community?pvf=CAI%253D" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
         </div>
     </header>
@@ -357,17 +357,28 @@
     </section>    
     <section id="contact" class="contact section">
         <h2>CONTACT ME</h2>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit" class="contact-button">Send Message</button>
+        <form class="contact-form" id="contactForm" action="connect.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" id="sendButton" class="contact-button">Send Message</button>
+            <button type="button" id="viewMessagesButton" class="contact-button">View Messages</button>
+        </form>
+    </section>
+    
+    <script>
+    document.getElementById("viewMessagesButton").addEventListener("click", function() {
+        // Redirect to the view_messages.php page
+        window.location.href = "view_messages.php";
+    });
+    </script>
+    
         </form>
         <div class="social-links">
-            <a href=" https://www.instagram.com/invites/contact/?igsh=wj0lo26eh2xf&utm_content=jl2k6uh" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://youtube.com/yourprofile" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href=" https://www.instagram.com/mr_attitude_sk_/?next=%2F" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sivakumar-s-603572280/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SIVA2118" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/channel/UCS_qq1uFoGLQiNkM7iPRsCA/community?pvf=CAI%253D" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
     </section>
     <section id="services" class="services section">
